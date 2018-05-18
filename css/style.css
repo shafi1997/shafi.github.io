@@ -59,6 +59,22 @@
     color: aliceblue;
 }
 
+.my_cv {
+    background: #b41228;
+    margin-bottom: 20px;
+}
+.my_cv a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.my_cv a:hover {
+    background: #980b1a;
+}
+
 .my_work_title {
     padding: 0px 0 20px 0;
     margin: 0;
@@ -71,16 +87,15 @@
     text-decoration: none;
 }
 
-
-
 .content .right_content {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .right_content_title {
-    background: #3C40C6;
+    background: #003366;
     margin-bottom: 0;
     padding: 8px 7px;
+    color: #DEE4EB;
 }
 
 .caree_title {
@@ -109,6 +124,41 @@
 
 .social {
     padding: 30px 0;
+}
+
+.footer {
+    width: 50%;
+    height: 0px;
+    background: #980B1A;
+    -ms-transform: skewX(-20deg); /* IE 9 */
+    -webkit-transform: skewX(-20deg); /* Safari */
+    transform: skewX(-20deg); /* Standard syntax */ 
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 3s;
+    padding: 18px 0 35px 0;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer:hover {
+    width: 100%;
+    background: #343A40;
+}
+
+.copyrightt {
+    width: 100%;
+    background: #2d3237;
+    color: lightgrey;
+    box-shadow: 0px -5px 8px 0px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.copyrightt .shafi {
+    margin: 0;
+    padding: 3px;
+    text-align: center;  
 }
 
 #back-to-top {
@@ -141,3 +191,24 @@
 #content {
     height: 2000px;
 }
+
+
+
+/*---------scrollbar----------*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b41228; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #980b1a; 
+}
+
