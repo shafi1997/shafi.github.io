@@ -80,6 +80,10 @@
     margin: 0;
 }
 
+.my_work_middel {
+    margin-top: 10px;
+}
+
 .card-body {
     padding: 10px 2px; 
     background: #980B1A;
